@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="xiaojinzhong" />
+    <title>忧伤大剧院</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="ico/favicon.ico" />
+    <!-- 自定义CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+  <header class="has-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-sm-6 col-md-4">
+          <a class="logo" href="/"></a>
+        </div>
+        <div class="col-xs-2 col-sm-6 col-md-8">
+          <nav id="mobile-menu-icon" class="mobile-menu-icon desktop-menu hidden-md hidden-lg">
+            <a class="hamburger" href="#"></a>
+          </nav>
+          <nav class="desktop-menu hidden-xs hidden-sm">
+          <a href="/projects">Projects</a> 
+          <a href="/about">About</a> 
+          <a href="/blog">Blog</a> 
+          <a class="" href="/contact">Contact</a></nav>
+          <nav id="mobile-menu" class="mobile-menu animated hidden-md hidden-lg">
+          <a href="/projects">Projects</a> 
+          <a href="/about">About</a> 
+          <a href="/blog">Blog</a> 
+          <a class="" href="/contact">Contact</a></nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container"></div>Haha!
+  <br />Yoooooooooooooooooooooooooooooooooooooo! 
+  <script>
+    var hamburgerMenu = document.getElementById("mobile-menu-icon");
+    var mobileMenu = document.getElementById("mobile-menu");
+    hamburgerMenu.addEventListener("click", function(event){
+        if (mobileMenu.className.indexOf("open") == -1){
+            mobileMenu.className += " open";
+        }
+        else {
+            mobileMenu.className = mobileMenu.className.replace(" open", "");
+        }
+        event.preventDefault();
+        return false;
+    });
+  </script> 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   
+  <script src="js/jquery.min.js"></script> 
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+   
+  <script src="js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script> 
+  <script type="text/javascript" src="js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script></body>
+</html>
